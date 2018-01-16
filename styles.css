@@ -1,0 +1,79 @@
+
+.general{}
+.background{
+	background-color: #f4f7f0;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.container {
+position: relative;
+text-align: center;
+vertical-align: center;
+}
+
+.triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 1000px solid darkblue;
+	border-left: 1000px solid transparent;
+	z-index: 2;
+
+
+}
+
+.hover{
+	transition: all .3s ease-in;
+}
+.hover :hover {
+	background: yellow;
+	transform: rotate(20deg) scale(3);
+}
+
+
+.square {
+	width: 1000px;
+	height: 1000px;
+	background: yellow;
+	z-index: 2;
+}
+
+.hover2{
+	transition: all .3s ease-in;
+}
+
+.hover2:hover{
+	background: darkblue;
+	transform: rotate(20deg) scale(3);
+}
+
+.number{
+	position: absolute;
+  top: 25%;
+  left: 35%;
+
+
+}
+
+p1{
+  font-family: helvetica;
+	font-size: 70px;
+	font-style: bold;
+color: white;
+
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 0%;}
+
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+	z-index: 1;
+	width: 700px;
+}
